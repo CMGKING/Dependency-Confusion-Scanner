@@ -1,0 +1,12 @@
+{
+  "internal_packages": [
+    {
+      "name": "requests",
+      "version": "1.0.0"
+    },
+    {
+      "name": "company-payment-api",
+      "version": "1.0.0"
+    }
+  ]
+}

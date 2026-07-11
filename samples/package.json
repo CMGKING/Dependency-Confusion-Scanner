@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "company-payment-api": "1.0.0"
+  }
+}

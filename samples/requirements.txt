@@ -1,0 +1,7 @@
+# Production packages
+
+requests==2.32.0
+
+# ML
+
+numpy==2.5.0

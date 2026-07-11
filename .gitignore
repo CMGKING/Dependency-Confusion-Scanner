@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Generated Reports
+dependency_report.json
+reports/
+
+# OS Files
+.DS_Store
+Thumbs.db
