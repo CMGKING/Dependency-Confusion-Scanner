@@ -2,7 +2,7 @@ Dependency Confusion Scanner
 
 A Python-based static security analysis tool that detects **Dependency Confusion** vulnerabilities in software projects. The scanner parses dependency files, checks public package registries (PyPI, npm, and Maven Central), compares them with an internal package inventory, and generates a security report suitable for CI/CD environments.
 
----------------------------------------------------------------------------------------------------
+---
 OVERVIEW
 
 Dependency Confusion is a software supply chain attack where an attacker publishes a malicious package with the same name as an organization's private package on a public package registry. If the public package has a higher version number, package managers may install the malicious package instead of the intended internal one.
@@ -32,7 +32,7 @@ FEATURES
 - Generate a JSON security report
 - CI/CD friendly (returns non-zero exit code on HIGH-risk findings)
 
----------------------------------------------------------------------------------------------------------------------
+---
 
  PROJECT STRUCTURE
 
@@ -113,19 +113,19 @@ USAGE
 SCAN PYTHON PROJECT 
 
   
-python scanner.py --file samples/requirements.txt
+py scanner.py --file samples/requirements.txt
  
 
  Scan Node.js project
 
   
-python scanner.py --file samples/package.json
+py scanner.py --file samples/package.json
  
 
  Scan Maven project
 
   
-python scanner.py --file samples/pom.xml
+py scanner.py --file samples/pom.xml
  
 
 ---
@@ -178,7 +178,7 @@ Exit codes:
 
 Example:
 
-python scanner.py --file requirements.txt
+py scanner.py --file requirements.txt
 echo %ERRORLEVEL%
  
 
